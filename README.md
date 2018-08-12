@@ -1,0 +1,2 @@
+# Testnets
+THORChain Testnets
