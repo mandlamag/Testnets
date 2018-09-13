@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2018-08-12T11:10:30.259470716Z",
+  "genesis_time": "2018-09-13T16:39:30.259470716Z",
   "chain_id": "genesis-alpha",
   "consensus_params": {
     "block_size_params": {
@@ -22,7 +22,7 @@
     {
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "GFuwq3Zw1KFnfjZI77y7lxRlXSA+QbcNLBAiWybavP0="
+        "value": "e7u7mkGquQRdwrOML4dlIIlsq1zpzhv3DL5LOe+cnok="
       },
       "power": "200000000",
       "name": ""
@@ -30,7 +30,7 @@
     {
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "654JvU292wGhiAoiZxLKBcv8olM34nShpupTasu7AWk="
+        "value": "HtcTcD0MGk25n7mxsi22Z/2yvH02jBh9MmZDVNIk+PE="
       },
       "power": "200000000",
       "name": ""
@@ -38,7 +38,7 @@
     {
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "aezNhMaImRYm5Jx9ZgqEmGJ7ub+EKDkgLUlHe1ZcFeM="
+        "value": "n6kChznl09uR0POMG3wsSHpRheP4k0gZwqQWRwBxuLc="
       },
       "power": "200000000",
       "name": ""
@@ -46,7 +46,7 @@
     {
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "ok1T9nB/sjv5j/5lcCgph+dBMUCDburTcJAN2j06bWA="
+        "value": "68aF+O1sk4qKi92BWD59crdEabRCbTcdHj+jhCPE0Ic="
       },
       "power": "200000000",
       "name": ""
@@ -56,7 +56,7 @@
   "app_state": {
     "accounts": [
       {
-        "address": "t0accaddr1nykzka38vxx5gc5a6hl939hu7nq6cqrzjuwuh7",
+        "address": "t0accaddr1866jfjun42n5h5wn79fvf2pyx5vqsc0q7yupd7",
         "coins": [
           {
             "denom": "RUNE",
@@ -65,7 +65,7 @@
         ]
       },
       {
-        "address": "t0accaddr1erplphk38vpps6z7dhn24yy3azye9aqwq8ymul",
+        "address": "t0accaddr1dtfswf9dy5p5rczs9q5rjscjdnvk4nyulg0sgr",
         "coins": [
           {
             "denom": "RUNE",
@@ -74,7 +74,7 @@
         ]
       },
       {
-        "address": "t0accaddr1469tsj7m8gplwgc2we8f4tftg3nk8qx9nhrgfs",
+        "address": "t0accaddr1emexkemwn0cra7nnnm3juj6grw8sf6wuycanfm",
         "coins": [
           {
             "denom": "RUNE",
@@ -83,7 +83,7 @@
         ]
       },
       {
-        "address": "t0accaddr1ttvadv4qnjl73sd4zcr2jqfnrhnpre7wnuy80r",
+        "address": "t0accaddr1ugvghhxpg85vumasda8lxpz0w4ds6djv0cdzna",
         "coins": [
           {
             "denom": "RUNE",
@@ -157,10 +157,10 @@
       },
       "validators": [
         {
-          "owner": "t0accaddr1nykzka38vxx5gc5a6hl939hu7nq6cqrzjuwuh7",
+          "owner": "t0accaddr1866jfjun42n5h5wn79fvf2pyx5vqsc0q7yupd7",
           "pub_key": {
             "type": "tendermint/PubKeyEd25519",
-            "value": "GFuwq3Zw1KFnfjZI77y7lxRlXSA+QbcNLBAiWybavP0="
+            "value": "e7u7mkGquQRdwrOML4dlIIlsq1zpzhv3DL5LOe+cnok="
           },
           "revoked": false,
           "status": 0,
@@ -182,10 +182,10 @@
           "prev_bonded_tokens": "0"
         },
         {
-          "owner": "t0accaddr1erplphk38vpps6z7dhn24yy3azye9aqwq8ymul",
+          "owner": "t0accaddr1dtfswf9dy5p5rczs9q5rjscjdnvk4nyulg0sgr",
           "pub_key": {
             "type": "tendermint/PubKeyEd25519",
-            "value": "654JvU292wGhiAoiZxLKBcv8olM34nShpupTasu7AWk="
+            "value": "HtcTcD0MGk25n7mxsi22Z/2yvH02jBh9MmZDVNIk+PE="
           },
           "revoked": false,
           "status": 0,
@@ -207,10 +207,10 @@
           "prev_bonded_tokens": "0"
         },
         {
-          "owner": "t0accaddr1469tsj7m8gplwgc2we8f4tftg3nk8qx9nhrgfs",
+          "owner": "t0accaddr1emexkemwn0cra7nnnm3juj6grw8sf6wuycanfm",
           "pub_key": {
             "type": "tendermint/PubKeyEd25519",
-            "value": "aezNhMaImRYm5Jx9ZgqEmGJ7ub+EKDkgLUlHe1ZcFeM="
+            "value": "n6kChznl09uR0POMG3wsSHpRheP4k0gZwqQWRwBxuLc="
           },
           "revoked": false,
           "status": 0,
@@ -232,10 +232,10 @@
           "prev_bonded_tokens": "0"
         },
         {
-          "owner": "t0accaddr1ttvadv4qnjl73sd4zcr2jqfnrhnpre7wnuy80r",
+          "owner": "t0accaddr1ugvghhxpg85vumasda8lxpz0w4ds6djv0cdzna",
           "pub_key": {
             "type": "tendermint/PubKeyEd25519",
-            "value": "ok1T9nB/sjv5j/5lcCgph+dBMUCDburTcJAN2j06bWA="
+            "value": "68aF+O1sk4qKi92BWD59crdEabRCbTcdHj+jhCPE0Ic="
           },
           "revoked": false,
           "status": 0,
@@ -259,26 +259,26 @@
       ],
       "bonds": [
         {
-          "delegator_addr": "t0accaddr1nykzka38vxx5gc5a6hl939hu7nq6cqrzjuwuh7",
-          "validator_addr": "t0accaddr1nykzka38vxx5gc5a6hl939hu7nq6cqrzjuwuh7",
+          "delegator_addr": "t0accaddr1866jfjun42n5h5wn79fvf2pyx5vqsc0q7yupd7",
+          "validator_addr": "t0accaddr1866jfjun42n5h5wn79fvf2pyx5vqsc0q7yupd7",
           "shares": "200000000",
           "height": "0"
         },
         {
-          "delegator_addr": "t0accaddr1erplphk38vpps6z7dhn24yy3azye9aqwq8ymul",
-          "validator_addr": "t0accaddr1erplphk38vpps6z7dhn24yy3azye9aqwq8ymul",
+          "delegator_addr": "t0accaddr1dtfswf9dy5p5rczs9q5rjscjdnvk4nyulg0sgr",
+          "validator_addr": "t0accaddr1dtfswf9dy5p5rczs9q5rjscjdnvk4nyulg0sgr",
           "shares": "200000000",
           "height": "0"
         },
         {
-          "delegator_addr": "t0accaddr1469tsj7m8gplwgc2we8f4tftg3nk8qx9nhrgfs",
-          "validator_addr": "t0accaddr1469tsj7m8gplwgc2we8f4tftg3nk8qx9nhrgfs",
+          "delegator_addr": "t0accaddr1emexkemwn0cra7nnnm3juj6grw8sf6wuycanfm",
+          "validator_addr": "t0accaddr1emexkemwn0cra7nnnm3juj6grw8sf6wuycanfm",
           "shares": "200000000",
           "height": "0"
         },
         {
-          "delegator_addr": "t0accaddr1ttvadv4qnjl73sd4zcr2jqfnrhnpre7wnuy80r",
-          "validator_addr": "t0accaddr1ttvadv4qnjl73sd4zcr2jqfnrhnpre7wnuy80r",
+          "delegator_addr": "t0accaddr1ugvghhxpg85vumasda8lxpz0w4ds6djv0cdzna",
+          "validator_addr": "t0accaddr1ugvghhxpg85vumasda8lxpz0w4ds6djv0cdzna",
           "shares": "200000000",
           "height": "0"
         }
