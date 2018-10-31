@@ -1,0 +1,292 @@
+{
+  "genesis_time": "2018-10-31T14:26:16.154605377Z",
+  "chain_id": "genesis-beta",
+  "consensus_params": {
+    "block_size_params": {
+      "max_bytes": "10485760",
+      "max_txs": "10000",
+      "max_gas": "-1"
+    },
+    "tx_size_params": {
+      "max_bytes": "10240",
+      "max_gas": "-1"
+    },
+    "block_gossip_params": {
+      "block_part_size_bytes": "65536"
+    },
+    "evidence_params": {
+      "max_age": "100000"
+    }
+  },
+  "validators": [
+    {
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "8g2D584Y561p0gnFN4inPbGh40e7bb4X4E8C4yRcLgM="
+      },
+      "power": "200000000",
+      "name": ""
+    },
+    {
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "pEb7Sk4S0paKAYEqSvbG7qE+Vue6AWUST3HrvIR5Uik="
+      },
+      "power": "200000000",
+      "name": ""
+    },
+    {
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "Dc5STYZossAUrxiqSrfJvb0OiRiJmwRD4DUxTdrho6Q="
+      },
+      "power": "200000000",
+      "name": ""
+    },
+    {
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "QMYY3+luTq8MFubwi6gfw8o11ao+TSR0kP8w/uQfxcc="
+      },
+      "power": "200000000",
+      "name": ""
+    }
+  ],
+  "app_hash": "",
+  "app_state": {
+    "accounts": [
+      {
+        "address": "t0accaddr1zjgtrhdfp08hmy3g3ekeu6ph0vs2saqh9rjn70",
+        "coins": [
+          {
+            "denom": "RUNE",
+            "amount": "200000000"
+          }
+        ]
+      },
+      {
+        "address": "t0accaddr1ne69zy70rvxqt2seypq27fhlz4vzxp3ee9zm3m",
+        "coins": [
+          {
+            "denom": "RUNE",
+            "amount": "200000000"
+          }
+        ]
+      },
+      {
+        "address": "t0accaddr143526p7vt555sacffh4m5e840r4cf4m2v0mteq",
+        "coins": [
+          {
+            "denom": "RUNE",
+            "amount": "200000000"
+          }
+        ]
+      },
+      {
+        "address": "t0accaddr1l556ju0xd6cw4s59yj9wx82qsjvtdayu97geul",
+        "coins": [
+          {
+            "denom": "RUNE",
+            "amount": "200000000"
+          }
+        ]
+      },
+      {
+        "address": "t0accaddr1uf5cqcseeye54lw7h2k9n2arn332kxhwgznpcu",
+        "coins": [
+          {
+            "denom": "RUNE",
+            "amount": "40000000"
+          }
+        ]
+      },
+      {
+        "address": "t0accaddr1htg2q3h83zafn4vpc6kgdmgh4r42z037e2ng5m",
+        "coins": [
+          {
+            "denom": "RUNE",
+            "amount": "40000000"
+          }
+        ]
+      },
+      {
+        "address": "t0accaddr12l2sdgk8deptack0tmgx05x4gwsts4mf5ttq30",
+        "coins": [
+          {
+            "denom": "RUNE",
+            "amount": "40000000"
+          }
+        ]
+      },
+      {
+        "address": "t0accaddr1vemg7hkp0p6hqjcu0g6dec7zmmswxgufpsx54s",
+        "coins": [
+          {
+            "denom": "RUNE",
+            "amount": "40000000"
+          }
+        ]
+      },
+      {
+        "address": "t0accaddr1cdqcmc8242dp0gqj20nh5gmx3fgt2xt8wlw58q",
+        "coins": [
+          {
+            "denom": "RUNE",
+            "amount": "40000000"
+          }
+        ]
+      }
+    ],
+    "stake": {
+      "pool": {
+        "loose_tokens": "1000000000",
+        "bonded_tokens": "0",
+        "inflation_last_time": "1970-01-01T00:00:00Z",
+        "inflation": "7/100",
+        "date_last_commission_reset": "0",
+        "prev_bonded_shares": "0"
+      },
+      "params": {
+        "inflation_rate_change": "13/100",
+        "inflation_max": "1/5",
+        "inflation_min": "7/100",
+        "goal_bonded": "67/100",
+        "unbonding_time": "259200000000000",
+        "max_validators": 100,
+        "bond_denom": "RUNE"
+      },
+      "validators": [
+        {
+          "owner": "t0accaddr1zjgtrhdfp08hmy3g3ekeu6ph0vs2saqh9rjn70",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "8g2D584Y561p0gnFN4inPbGh40e7bb4X4E8C4yRcLgM="
+          },
+          "revoked": false,
+          "status": 0,
+          "tokens": "200000000",
+          "delegator_shares": "200000000",
+          "description": {
+            "moniker": "node102",
+            "identity": "",
+            "website": "",
+            "details": ""
+          },
+          "bond_height": "0",
+          "bond_intra_tx_counter": 0,
+          "proposer_reward_pool": [],
+          "commission": "0",
+          "commission_max": "0",
+          "commission_change_rate": "0",
+          "commission_change_today": "0",
+          "prev_bonded_tokens": "0"
+        },
+        {
+          "owner": "t0accaddr1ne69zy70rvxqt2seypq27fhlz4vzxp3ee9zm3m",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "pEb7Sk4S0paKAYEqSvbG7qE+Vue6AWUST3HrvIR5Uik="
+          },
+          "revoked": false,
+          "status": 0,
+          "tokens": "200000000",
+          "delegator_shares": "200000000",
+          "description": {
+            "moniker": "node101",
+            "identity": "",
+            "website": "",
+            "details": ""
+          },
+          "bond_height": "0",
+          "bond_intra_tx_counter": 0,
+          "proposer_reward_pool": [],
+          "commission": "0",
+          "commission_max": "0",
+          "commission_change_rate": "0",
+          "commission_change_today": "0",
+          "prev_bonded_tokens": "0"
+        },
+        {
+          "owner": "t0accaddr143526p7vt555sacffh4m5e840r4cf4m2v0mteq",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "Dc5STYZossAUrxiqSrfJvb0OiRiJmwRD4DUxTdrho6Q="
+          },
+          "revoked": false,
+          "status": 0,
+          "tokens": "200000000",
+          "delegator_shares": "200000000",
+          "description": {
+            "moniker": "node104",
+            "identity": "",
+            "website": "",
+            "details": ""
+          },
+          "bond_height": "0",
+          "bond_intra_tx_counter": 0,
+          "proposer_reward_pool": [],
+          "commission": "0",
+          "commission_max": "0",
+          "commission_change_rate": "0",
+          "commission_change_today": "0",
+          "prev_bonded_tokens": "0"
+        },
+        {
+          "owner": "t0accaddr1l556ju0xd6cw4s59yj9wx82qsjvtdayu97geul",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "QMYY3+luTq8MFubwi6gfw8o11ao+TSR0kP8w/uQfxcc="
+          },
+          "revoked": false,
+          "status": 0,
+          "tokens": "200000000",
+          "delegator_shares": "200000000",
+          "description": {
+            "moniker": "node103",
+            "identity": "",
+            "website": "",
+            "details": ""
+          },
+          "bond_height": "0",
+          "bond_intra_tx_counter": 0,
+          "proposer_reward_pool": [],
+          "commission": "0",
+          "commission_max": "0",
+          "commission_change_rate": "0",
+          "commission_change_today": "0",
+          "prev_bonded_tokens": "0"
+        }
+      ],
+      "bonds": [
+        {
+          "delegator_addr": "t0accaddr1zjgtrhdfp08hmy3g3ekeu6ph0vs2saqh9rjn70",
+          "validator_addr": "t0accaddr1zjgtrhdfp08hmy3g3ekeu6ph0vs2saqh9rjn70",
+          "shares": "200000000",
+          "height": "0"
+        },
+        {
+          "delegator_addr": "t0accaddr1ne69zy70rvxqt2seypq27fhlz4vzxp3ee9zm3m",
+          "validator_addr": "t0accaddr1ne69zy70rvxqt2seypq27fhlz4vzxp3ee9zm3m",
+          "shares": "200000000",
+          "height": "0"
+        },
+        {
+          "delegator_addr": "t0accaddr143526p7vt555sacffh4m5e840r4cf4m2v0mteq",
+          "validator_addr": "t0accaddr143526p7vt555sacffh4m5e840r4cf4m2v0mteq",
+          "shares": "200000000",
+          "height": "0"
+        },
+        {
+          "delegator_addr": "t0accaddr1l556ju0xd6cw4s59yj9wx82qsjvtdayu97geul",
+          "validator_addr": "t0accaddr1l556ju0xd6cw4s59yj9wx82qsjvtdayu97geul",
+          "shares": "200000000",
+          "height": "0"
+        }
+      ]
+    },
+    "clp": {},
+    "exchange": {
+      "starting_orderID": "1"
+    }
+  }
+}
