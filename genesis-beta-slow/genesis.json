@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2018-11-01T09:44:03.07253991Z",
+  "genesis_time": "2018-11-03T09:48:49.969303466Z",
   "chain_id": "genesis-beta-slow",
   "consensus_params": {
     "block_size_params": {
@@ -22,7 +22,7 @@
     {
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "QdShdejHRlLfVsYf211S9jZHLgoSf7jnDhKuAywOCWw="
+        "value": "onfoNN0/1AuXoNuYi+aoCm2Sip7sTiLzdAJO+/TaRCQ="
       },
       "power": "200000000",
       "name": ""
@@ -30,7 +30,7 @@
     {
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "XUc+hF3cknUurzp1RepVPl5sKm96+16PUdl7IFCU1s8="
+        "value": "ZMY4O5ocz1TJENHVfw6U/pz7mWebNP3p5NfhN6gCrdA="
       },
       "power": "200000000",
       "name": ""
@@ -38,7 +38,7 @@
     {
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "055UjMc8lgKbsGsLdtTgS5uNdwhrsg04Shei2Vk2d2o="
+        "value": "+6lB4ft/mHI23g0LZDmiblFz/BnbM/b59ucE3pEfREo="
       },
       "power": "200000000",
       "name": ""
@@ -46,7 +46,7 @@
     {
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "MXYUS/BjcmRXjiFftOuhJC631kmisTQt9Yb6TP4MEDU="
+        "value": "GHryH2zkaNOuyUUWU35N0ZJEX5zIjTL3LeKkfw40iYg="
       },
       "power": "200000000",
       "name": ""
@@ -56,7 +56,7 @@
   "app_state": {
     "accounts": [
       {
-        "address": "t0accaddr1fzxsace6wh5pe4dr760rmsaheavwfgddfrvcmy",
+        "address": "t0accaddr1n8tu6gmdd4ssyzmqwfsdk7ke73t357u86v6nqz",
         "coins": [
           {
             "denom": "RUNE",
@@ -65,7 +65,7 @@
         ]
       },
       {
-        "address": "t0accaddr1rj7pc227rldkq5dfp5tygu6m66d56fd043ae4g",
+        "address": "t0accaddr1wuezd4e8585hpqkj0vwe65xh0fwgkufakqkary",
         "coins": [
           {
             "denom": "RUNE",
@@ -74,7 +74,7 @@
         ]
       },
       {
-        "address": "t0accaddr1jgs5c6j93sfzcj8et5q6dqcdh8gtvr4t844wzj",
+        "address": "t0accaddr19xq2z2k5uu7wyj3rmsqgl23ctlttfah3hy3k2u",
         "coins": [
           {
             "denom": "RUNE",
@@ -83,7 +83,7 @@
         ]
       },
       {
-        "address": "t0accaddr1tg3apwj5y2pf76n8pd0x7mquacm6vpw62lx39x",
+        "address": "t0accaddr1qp8r00me2q4ql0mnq4nffqv7rf4uftzm25fqh9",
         "coins": [
           {
             "denom": "RUNE",
@@ -157,17 +157,17 @@
       },
       "validators": [
         {
-          "owner": "t0accaddr1fzxsace6wh5pe4dr760rmsaheavwfgddfrvcmy",
+          "owner": "t0accaddr1n8tu6gmdd4ssyzmqwfsdk7ke73t357u86v6nqz",
           "pub_key": {
             "type": "tendermint/PubKeyEd25519",
-            "value": "QdShdejHRlLfVsYf211S9jZHLgoSf7jnDhKuAywOCWw="
+            "value": "onfoNN0/1AuXoNuYi+aoCm2Sip7sTiLzdAJO+/TaRCQ="
           },
           "revoked": false,
           "status": 0,
           "tokens": "200000000",
           "delegator_shares": "200000000",
           "description": {
-            "moniker": "node101",
+            "moniker": "node104",
             "identity": "",
             "website": "",
             "details": ""
@@ -182,35 +182,10 @@
           "prev_bonded_tokens": "0"
         },
         {
-          "owner": "t0accaddr1rj7pc227rldkq5dfp5tygu6m66d56fd043ae4g",
+          "owner": "t0accaddr1wuezd4e8585hpqkj0vwe65xh0fwgkufakqkary",
           "pub_key": {
             "type": "tendermint/PubKeyEd25519",
-            "value": "XUc+hF3cknUurzp1RepVPl5sKm96+16PUdl7IFCU1s8="
-          },
-          "revoked": false,
-          "status": 0,
-          "tokens": "200000000",
-          "delegator_shares": "200000000",
-          "description": {
-            "moniker": "node103",
-            "identity": "",
-            "website": "",
-            "details": ""
-          },
-          "bond_height": "0",
-          "bond_intra_tx_counter": 0,
-          "proposer_reward_pool": [],
-          "commission": "0",
-          "commission_max": "0",
-          "commission_change_rate": "0",
-          "commission_change_today": "0",
-          "prev_bonded_tokens": "0"
-        },
-        {
-          "owner": "t0accaddr1jgs5c6j93sfzcj8et5q6dqcdh8gtvr4t844wzj",
-          "pub_key": {
-            "type": "tendermint/PubKeyEd25519",
-            "value": "055UjMc8lgKbsGsLdtTgS5uNdwhrsg04Shei2Vk2d2o="
+            "value": "ZMY4O5ocz1TJENHVfw6U/pz7mWebNP3p5NfhN6gCrdA="
           },
           "revoked": false,
           "status": 0,
@@ -232,17 +207,42 @@
           "prev_bonded_tokens": "0"
         },
         {
-          "owner": "t0accaddr1tg3apwj5y2pf76n8pd0x7mquacm6vpw62lx39x",
+          "owner": "t0accaddr19xq2z2k5uu7wyj3rmsqgl23ctlttfah3hy3k2u",
           "pub_key": {
             "type": "tendermint/PubKeyEd25519",
-            "value": "MXYUS/BjcmRXjiFftOuhJC631kmisTQt9Yb6TP4MEDU="
+            "value": "+6lB4ft/mHI23g0LZDmiblFz/BnbM/b59ucE3pEfREo="
           },
           "revoked": false,
           "status": 0,
           "tokens": "200000000",
           "delegator_shares": "200000000",
           "description": {
-            "moniker": "node104",
+            "moniker": "node101",
+            "identity": "",
+            "website": "",
+            "details": ""
+          },
+          "bond_height": "0",
+          "bond_intra_tx_counter": 0,
+          "proposer_reward_pool": [],
+          "commission": "0",
+          "commission_max": "0",
+          "commission_change_rate": "0",
+          "commission_change_today": "0",
+          "prev_bonded_tokens": "0"
+        },
+        {
+          "owner": "t0accaddr1qp8r00me2q4ql0mnq4nffqv7rf4uftzm25fqh9",
+          "pub_key": {
+            "type": "tendermint/PubKeyEd25519",
+            "value": "GHryH2zkaNOuyUUWU35N0ZJEX5zIjTL3LeKkfw40iYg="
+          },
+          "revoked": false,
+          "status": 0,
+          "tokens": "200000000",
+          "delegator_shares": "200000000",
+          "description": {
+            "moniker": "node103",
             "identity": "",
             "website": "",
             "details": ""
@@ -259,26 +259,26 @@
       ],
       "bonds": [
         {
-          "delegator_addr": "t0accaddr1fzxsace6wh5pe4dr760rmsaheavwfgddfrvcmy",
-          "validator_addr": "t0accaddr1fzxsace6wh5pe4dr760rmsaheavwfgddfrvcmy",
+          "delegator_addr": "t0accaddr1n8tu6gmdd4ssyzmqwfsdk7ke73t357u86v6nqz",
+          "validator_addr": "t0accaddr1n8tu6gmdd4ssyzmqwfsdk7ke73t357u86v6nqz",
           "shares": "200000000",
           "height": "0"
         },
         {
-          "delegator_addr": "t0accaddr1rj7pc227rldkq5dfp5tygu6m66d56fd043ae4g",
-          "validator_addr": "t0accaddr1rj7pc227rldkq5dfp5tygu6m66d56fd043ae4g",
+          "delegator_addr": "t0accaddr1wuezd4e8585hpqkj0vwe65xh0fwgkufakqkary",
+          "validator_addr": "t0accaddr1wuezd4e8585hpqkj0vwe65xh0fwgkufakqkary",
           "shares": "200000000",
           "height": "0"
         },
         {
-          "delegator_addr": "t0accaddr1jgs5c6j93sfzcj8et5q6dqcdh8gtvr4t844wzj",
-          "validator_addr": "t0accaddr1jgs5c6j93sfzcj8et5q6dqcdh8gtvr4t844wzj",
+          "delegator_addr": "t0accaddr19xq2z2k5uu7wyj3rmsqgl23ctlttfah3hy3k2u",
+          "validator_addr": "t0accaddr19xq2z2k5uu7wyj3rmsqgl23ctlttfah3hy3k2u",
           "shares": "200000000",
           "height": "0"
         },
         {
-          "delegator_addr": "t0accaddr1tg3apwj5y2pf76n8pd0x7mquacm6vpw62lx39x",
-          "validator_addr": "t0accaddr1tg3apwj5y2pf76n8pd0x7mquacm6vpw62lx39x",
+          "delegator_addr": "t0accaddr1qp8r00me2q4ql0mnq4nffqv7rf4uftzm25fqh9",
+          "validator_addr": "t0accaddr1qp8r00me2q4ql0mnq4nffqv7rf4uftzm25fqh9",
           "shares": "200000000",
           "height": "0"
         }
